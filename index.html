@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Discover freshly baked bread, meat pies, sausage rolls and small chops at Koko Bakehouse. Weekend delivery now open.">
+
+    <meta name="theme-color" content="#F8F3E9">
+
+    <title>Koko Bakehouse | Freshly Baked With Care</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Koko Bakehouse<span>.</span></a>
+
+            <a href="#menu" class="nav-link">Our Menu</a>
+        </nav>
+    </header>
+
+
+    <!-- Section 1: Hero -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">FRESHLY BAKED WITH CARE</p>
+
+                <h1>Good things are <span>baking.</span></h1>
+
+                <p class="hero-description">
+                    From warm, freshly baked bread to delicious little treats,
+                    there's something special waiting for you at Koko Bakehouse.
+                </p>
+
+                <p class="delivery-note">
+                    Weekend delivery now open.
+                </p>
+
+                <a href="#menu" class="primary-button">
+                    Explore Our Menu
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="images/hero.jpg"
+                    alt="Freshly baked artisan bread"
+                    fetchpriority="high"
+                    decoding="async"
+                >
+            </div>
+
+        </section>
+
+
+        <!-- Section 2: Our Menu -->
+        <section class="menu-section" id="menu">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">MADE FRESH FOR YOU</p>
+
+                <h2>A little taste of happiness.</h2>
+
+                <p>
+                    Thoughtfully prepared favourites, made to bring
+                    a little joy to your day.
+                </p>
+
+            </div>
+
+
+            <div class="menu-grid">
+
+                <!-- Product 1 -->
+                <article class="menu-card">
+
+                    <img
+                        src="images/bread.jpg"
+                        alt="Freshly baked bread"
+                        fetchpriority="high"
+                        decoding="async"
+                    >
+
+                   <div class="menu-card-content">
+                    <h3>Fresh Bread</h3>
+
+                    <p>Soft, delicious and freshly baked.</p>
+
+                    <span class="price">₦2,500</span>
+
+                        <button class="order-button" onclick="orderProduct('Fresh Bread')">
+                            Order this item
+                        </button>
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+                <article class="menu-card">
+
+                    <img
+                        src="images/meat-pie.jpg"
+                        alt="Golden baked meat pie"
+                        fetchpriority="high"
+                        decoding="async"
+                    >
+
+                    <div class="menu-card-content">
+                        <h3>Meat Pie</h3>
+
+                        <p>A golden crust with a savoury filling.</p>
+
+                        <span class="price">₦1,500</span>
+
+                            <button class="order-button" onclick="orderProduct('Meat Pie')">
+                                Order this item
+                            </button>
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+                <article class="menu-card">
+
+                    <img
+                        src="images/sausage-roll.jpg"
+                        alt="Freshly baked sausage roll"    
+                        fetchpriority="high"
+                        decoding="async"
+                    >
+
+                    <div class="menu-card-content">
+                        <h3>Sausage Roll</h3>
+
+                        <p>A tasty treat for any time of day.</p>
+
+                        <span class="price">₦1,000</span>
+
+                        <button class="order-button" onclick="orderProduct('Sausage Roll')">
+                            Order this item
+                        </button>
+                    </div>
+
+                </article>
+
+
+                <!-- Product 4 -->
+                <article class="menu-card">
+
+                    <img
+                        src="images/small-chops.jpg"
+                        alt="Nigerian small chops platter"  
+                        fetchpriority="high"    
+                        decoding="async"
+                    >
+
+                    <div class="menu-card-content">
+                        <h3>Small Chops</h3>
+
+                        <p>A delightful mix of party favourites.</p>
+
+                        <span class="price">₦4,500</span>
+
+                        <button class="order-button" onclick="orderProduct('Small Chops')">
+                            Order this item
+                        </button>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Section 3: Order -->
+        <section class="order-section" id="order">
+
+            <p class="eyebrow">A LITTLE SOMETHING SPECIAL</p>
+
+            <h2>Your weekend deserves something delicious.</h2>
+
+            <p>
+                Let us take care of the treats.
+                Place your order and enjoy freshly baked goodness at home.
+            </p>
+
+            <a
+                href="https://wa.me/2348000000000?text=Hello%20Koko%20Bakehouse!%20I%20would%20like%20to%20place%20an%20order%20for%20weekend%20delivery."
+                class="primary-button"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Order on WhatsApp
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">Koko Bakehouse<span>.</span></a>
+
+        <p>Freshly baked. Made with care.</p>
+
+        <p class="copyright">
+            &copy; 2026 Koko Bakehouse. All rights reserved.
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
